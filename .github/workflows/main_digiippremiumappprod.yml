@@ -2,7 +2,6 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy dotnet core app to Azure Function App - DigiIpPremiumAppProd
-
 on: |+
   push:
     branches:
