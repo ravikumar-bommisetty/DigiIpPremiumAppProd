@@ -40,4 +40,4 @@ jobs:
           app-name: 'DigiIpPremiumAppPrd'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C23B8249BA424EF88080441B9096FA07 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3232E5D01A4E4222BB2DA7AA2C005B5A }}
