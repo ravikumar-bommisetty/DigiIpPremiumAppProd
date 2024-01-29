@@ -3,7 +3,7 @@
 
 name: Build and deploy dotnet core app to Azure Function App - DigiIpPremiumAppProd
 
-on:
+on: |+
   push:
     branches:
       - main
@@ -40,4 +40,4 @@ jobs:
           app-name: 'DigiIpPremiumAppProd'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F66A713F18B4EF09DD5FCEAA1518371 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F8F3ADC418344FC8AFF94D2E0170102 }}
